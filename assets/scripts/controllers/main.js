@@ -13,6 +13,8 @@ angular.module('chattyApp')
         });
       }
     };
+    $scope.name = "";
+    $scope.profile = "http://cdn.akc.org/Marketplace/Breeds/Yorkshire_Terrier_SERP.jpg";
 
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
